@@ -1,0 +1,145 @@
+body{ 
+    margin: 0; 
+     
+} 
+.hero{ 
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+} 
+.korobka{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 15px;
+    padding: 0 100px;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+} 
+.who_i{ 
+    font-family: "Roboto", sans-serif; 
+    line-height: 50%; 
+    font-size: 4vh; 
+    font-family: "Mulish", sans-serif;
+} 
+.what_do{ 
+    font-family: "Sedan SC", serif;
+    font-size: 180%;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+} 
+.textMid{ 
+    font-size: 250%;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 0%;
+    bottom: 6%;
+    left: 42%;
+} 
+h3{ 
+    font-size: 2rem; 
+    margin: 0; 
+    font-weight: 400; 
+} 
+ 
+.photo{ 
+    width: 20%;    
+    border-radius: 100%; 
+    margin: 5%; 
+} 
+.prizrak{ 
+    z-index: 5; 
+    top: 500px; 
+    right:300px; 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    background-color: white; 
+    box-shadow: 0 0 300px 100px white; 
+} 
+ 
+.logo{ 
+    width: 40px; 
+} 
+nav{ 
+    height: 100px; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20%; 
+} 
+.link{ 
+    font-size: 30px; 
+    margin-left: 50px; 
+    cursor: pointer; 
+    transition-duration: 0.2s; 
+} 
+.link:hover{ 
+    color: #5a5a5a; 
+} 
+.right{ 
+    position: absolute; 
+    right: 20%; 
+    border: 2px solid black; 
+    padding: 10px 30px; 
+    border-radius: 30px; 
+} 
+.right:hover{ 
+    background-color: black; 
+    color: white; 
+} 
+#aboutme{ 
+    background-color: #6E07F3; 
+    color: white; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    height: 52vh; 
+    align-items: start; 
+} 
+.korobka2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 15px;
+    padding: 0 100px;
+    width: 50%;
+}
+.teach{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: -5%;
+    font-size: 140%;
+}
+#projects{ 
+    background-color: white; 
+    color: black; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+} 
+.upbox{ 
+    display: flex; 
+ 
+    margin-top: -150px; 
+    width: 70%; 
+    height: 100vh; 
+    position: absolute; 
+    border-radius: 30px; 
+} 
+.card{ 
+    background: url("https://www.turismoroma.it/sites/default/files/Roma%20in%20breve.jpg"); 
+    background-color: #282828; 
+    border-radius: 30px; 
+    border: 1px solid rgb(199, 199, 199); 
+    padding: 50px; 
+    width: 33%; 
+    text-align: center; 
+    transition-duration: 0.5s; 
+    margin: 0 15px; 
+     
+} 
