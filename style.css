@@ -34,11 +34,6 @@ body{
 } 
 .textMid{ 
     font-size: 250%;
-    text-align: center;
-    position: absolute;
-    margin-bottom: 0%;
-    bottom: 6%;
-    left: 42%;
 } 
 h3{ 
     font-size: 2rem; 
@@ -107,12 +102,9 @@ nav{
     margin: 0 15px;
     padding: 0 100px;
     width: 50%;
+    align-content: center;
 }
 .teach{
-    width: 20%;
-    position: absolute;
-    left: 40%;
-    bottom: -5%;
     font-size: 140%;
 }
 #projects{ 
@@ -132,14 +124,19 @@ nav{
     border-radius: 30px; 
 } 
 .card{ 
-    background: url("https://www.turismoroma.it/sites/default/files/Roma%20in%20breve.jpg"); 
-    background-color: #282828; 
+    background-color: #ffffff; 
     border-radius: 30px; 
-    border: 1px solid rgb(199, 199, 199); 
+    border: 0.5px solid rgb(0, 0, 0); 
     padding: 50px; 
     width: 33%; 
     text-align: center; 
     transition-duration: 0.5s; 
     margin: 0 15px; 
-     
-} 
+}
+.komp{
+    width: 10vh;
+    height: 10vh;
+}
+.komp:hover{
+    image-rendering: url(komp.gif);
+}
