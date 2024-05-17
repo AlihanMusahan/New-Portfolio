@@ -21,19 +21,18 @@ body{
     top: 15%;
 } 
 .who_i{ 
-    font-family: "Roboto", sans-serif; 
     line-height: 50%; 
     font-size: 4vh; 
     font-family: "Mulish", sans-serif;
 } 
 .what_do{ 
-    font-family: "Sedan SC", serif;
     font-size: 180%;
     font-weight: 400;
     font-family: "Noto Sans", sans-serif;
 } 
 .textMid{ 
     font-size: 250%;
+    font-family: "Mulish", sans-serif;
 } 
 h3{ 
     font-size: 2rem; 
@@ -101,11 +100,12 @@ nav{
     display: flex;
     margin: 0 15px;
     padding: 0 100px;
-    width: 50%;
-    align-content: center;
+    width: 45%;
+    text-align: center;
 }
 .teach{
     font-size: 140%;
+    font-family: "Noto Sans", sans-serif;
 }
 #projects{ 
     background-color: white; 
@@ -133,10 +133,14 @@ nav{
     transition-duration: 0.5s; 
     margin: 0 15px; 
 }
-.komp{
+.img_in_card{
     width: 10vh;
     height: 10vh;
 }
 .komp:hover{
     image-rendering: url(komp.gif);
+}
+.about_card{
+    font-size: 50px;
+    font-family: "Radio Canada Big", sans-serif;
 }
