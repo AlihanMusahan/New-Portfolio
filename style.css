@@ -1,12 +1,15 @@
 body{ 
     margin: 0; 
      
+}
+a{
+    text-decoration: none;
 } 
-.hero{ 
+#hero{ 
     text-align: center;
     background-color: #ffffff;
     color: #000000;
-    height: 72vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
 } 
@@ -57,42 +60,44 @@ h3{
 } 
  
 .logo{ 
-    width: 40px; 
-} 
+    width: 70px; 
+}
 nav{ 
     height: 100px; 
     display: flex; 
     align-items: center; 
-    padding: 0 20%; 
+    padding: 0 20%;
+    font-family: "Mulish", sans-serif;
 } 
 .link{ 
     font-size: 30px; 
     margin-left: 50px; 
     cursor: pointer; 
-    transition-duration: 0.2s; 
+    transition-duration: 0.2s;
+    color:#000000 
 } 
 .link:hover{ 
-    color: #5a5a5a; 
+    color: #6E07F3;
 } 
 .right{ 
+    color: #6E07F3;
     position: absolute; 
     right: 20%; 
-    border: 2px solid black; 
+    border: 2px solid #6E07F3;; 
     padding: 10px 30px; 
-    border-radius: 30px; 
+    border-radius: 40px; 
 } 
 .right:hover{ 
-    background-color: black; 
+    background-color: #6E07F3;; 
     color: white; 
 } 
 #aboutme{ 
-    background-color: #6E07F3; 
-    color: white; 
-    text-align: center; 
-    display: flex; 
-    justify-content: center; 
-    height: 52vh; 
-    align-items: start; 
+    background-color: #6E07F3;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
 } 
 .korobka2{
     align-items: center;
@@ -101,46 +106,147 @@ nav{
     margin: 0 15px;
     padding: 0 100px;
     width: 45%;
+    position: absolute;
+    bottom: -5%;
     text-align: center;
 }
 .teach{
     font-size: 140%;
     font-family: "Noto Sans", sans-serif;
 }
-#projects{ 
+#myskills{ 
     background-color: white; 
     color: black; 
-    min-height: 100vh; 
+    height: 60vh; 
     display: flex; 
     justify-content: center; 
 } 
 .upbox{ 
     display: flex; 
- 
     margin-top: -150px; 
     width: 70%; 
-    height: 100vh; 
+    height: 80vh; 
     position: absolute; 
-    border-radius: 30px; 
+    border-radius: 30px;
+
 } 
 .card{ 
-    background-color: #ffffff; 
-    border-radius: 30px; 
-    border: 0.5px solid rgb(0, 0, 0); 
+    background-color: #ffffff;  
     padding: 50px; 
     width: 33%; 
     text-align: center; 
-    transition-duration: 0.5s; 
-    margin: 0 15px; 
+    transition-duration: 0.5s;
+    border-radius: 20px;
+    border: 1px solid rgb(200, 200, 200);
 }
 .img_in_card{
-    width: 10vh;
-    height: 10vh;
+    width: 5vh;
+    height: 5vh;
 }
-.komp:hover{
-    image-rendering: url(komp.gif);
+.head_card{
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
 }
 .about_card{
-    font-size: 50px;
-    font-family: "Radio Canada Big", sans-serif;
+    font-size: 140%;
+    font-family: "Noto Sans", sans-serif;
+}
+.skills{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    text-align: left;
+}
+.rod{
+    display: flex;
+    justify-content: space-around;
+}
+.skill_level{
+    font-size: 20px;
+    width: 150%;
+}
+.head_info{
+    font-size: 30px;
+    font-family: "Mulish", sans-serif;
+    color: #6E07F3;
+}
+
+#projects{
+    background-color: white; 
+    color: black; 
+    height: 100vh; 
+    justify-content: space-around;
+    text-align: center; 
+    margin-top: 420px;
+}
+.projects_head{
+    font-size: 60px;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+}
+.projects_box1{
+    display: flex;
+    justify-content: space-around;
+}
+.projects_box2{
+    display:flex;
+    justify-content: space-around;
+}
+.image{
+    width: 40vh;
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid rgb(200, 200, 200);
+    margin: 20px 20px;
+}
+.first_portfolio{
+    position: relative;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid rgb(200, 200, 200);
+    margin: 20px 20px;
+}
+.ugly-site{
+    position: relative;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid rgb(200, 200, 200);
+    margin: 20px 20px;
+}
+.about_projects{
+    font-size: 40px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 60px;
+}
+
+#blog{
+    text-align: center;
+    background-color: #6E07F3;
+    color:#ffffff;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.textMid1{ 
+    font-size: 80px;
+    font-family: "Mulish", sans-serif;
+}
+.blogs{
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+.image1{
+    width: 40vh;
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid rgb(59, 59, 59);
+}
+.about_blog{
+    color:#ffffff;
+    font-size: 30px;
+    font-family: "Noto Sans", sans-serif;
+    width: 500px;
 }
