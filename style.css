@@ -1,9 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
-body{ 
+body { 
     margin: 0; 
-     
+    padding-top: 100px;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -16,16 +17,14 @@ a{
     display: flex;
     justify-content: center;
 } 
-.korobka{ 
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 0 15px;
-    padding: 0 100px;
-    width: 50%;
-    position: absolute;
-    top: 15%;
-} 
+.korobka{
+    width: 90%; 
+    max-width: 1200px; 
+    padding: 0 5%;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+}
 .who_i{ 
     line-height: 50%; 
     font-size: 4vh; 
@@ -65,13 +64,21 @@ h3{
 .logo{ 
     width: 70px; 
 }
-nav{ 
+nav { 
     height: 100px; 
     display: flex; 
     align-items: center; 
-    padding: 0 20%;
+    padding: 0 5%;
     font-family: "Mulish", sans-serif;
-} 
+    
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 90%; 
+    background-color: white; 
+    z-index: 1000; 
+    border-bottom: 3px solid black;
+}
 .link{ 
     font-size: 30px; 
     margin-left: 50px; 
@@ -82,14 +89,14 @@ nav{
 .link:hover{ 
     color: #6E07F3;
 } 
-.right{ 
+.right { 
     color: #6E07F3;
-    position: absolute; 
-    right: 20%; 
-    border: 2px solid #6E07F3;; 
+    margin-left: auto; 
+    border: 2px solid #6E07F3; 
     padding: 10px 30px; 
     border-radius: 40px; 
-} 
+    position: static; 
+}
 .right:hover{ 
     background-color: #6E07F3;; 
     color: white; 
@@ -103,15 +110,12 @@ nav{
     height: 60vh;
 } 
 .korobka2{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 0 15px;
-    padding: 0 100px;
-    width: 45%;
-    position: absolute;
-    bottom: -5%;
-    text-align: center;
+    width: 90%; 
+    max-width: 1200px; 
+    padding: 0 5%;
+    position: relative; 
+    margin: 0 auto;
+    top: 50px;
 }
 .teach{
     font-size: 140%;
@@ -124,23 +128,17 @@ nav{
     display: flex; 
     justify-content: center; 
 } 
-.upbox{ 
-    display: flex; 
-    margin-top: -150px; 
-    width: 70%; 
-    height: 80vh; 
-    position: absolute; 
-    border-radius: 30px;
-
-} 
-.card{ 
-    background-color: #ffffff;  
-    padding: 50px; 
-    width: 33%; 
-    text-align: center; 
-    transition-duration: 0.5s;
-    border-radius: 20px;
-    border: 1px solid rgb(200, 200, 200);
+.upbox {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 90%;
+    margin: -100px auto 0; 
+    position: relative;
+}
+.card {
+    width: 30%; /* Три в ряд */
+    min-width: 280px; /* Чтобы не сжимались слишком сильно */
+    margin: 10px auto;
 }
 .img_in_card{
     width: 5vh;
@@ -252,4 +250,41 @@ nav{
     font-size: 30px;
     font-family: "Noto Sans", sans-serif;
     width: 500px;
+}
+
+#contact {
+    background-color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.contact_form input, .contact_form textarea {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.submit_btn {
+    background-color: #6E07F3;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit_btn:hover {
+    background-color: black;
 }
