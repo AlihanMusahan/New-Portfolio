@@ -280,9 +280,14 @@ nav {
 }
 
 #contact {
-    background-color: white;
-    padding: 100px 0;
-    text-align: center;
+    body.dark-theme #hero, 
+    body.dark-theme #aboutme,
+    body.dark-theme #myskills, 
+    body.dark-theme #projects,
+    body.dark-theme #blog,
+    body.dark-theme #contact {
+    background-color: #121212; /* Тёмный фон */
+    color: #ffffff;            /* Белый текст */
 }
 .contact_form {
     display: flex;
@@ -354,4 +359,15 @@ body.dark-theme .link {
 body.dark-theme .about_card, 
 body.dark-theme .head_card {
     color: #ffffff;
+}
+body.dark-theme .contact_form input, 
+body.dark-theme .contact_form textarea {
+    background-color: #1e1e1e; /* Тёмно-серый фон полей */
+    color: #ffffff;            /* Белый текст внутри */
+    border: 2px solid #ffffff; /* Белая обводка вместо чёрной */
+}
+
+body.dark-theme .contact_form input::placeholder,
+body.dark-theme .contact_form textarea::placeholder {
+    color: #bbbbbb;
 }
