@@ -328,6 +328,7 @@ section {
     height: 30px;
     cursor: pointer;
     margin-left: 20px;
+    margin-right: 20px;
     transition: transform 0.3s ease;
 }
 
@@ -371,3 +372,4 @@ body.dark-theme .contact_form input::placeholder,
 body.dark-theme .contact_form textarea::placeholder {
     color: #bbbbbb;
 }
+
