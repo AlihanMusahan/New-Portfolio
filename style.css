@@ -318,8 +318,40 @@ nav {
 section {
     scroll-margin-top: 100px; 
 }
+.theme-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
 
-
-
-
-
+.theme-icon:hover {
+    transform: scale(1.2);
+}
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+body.dark-theme #hero, 
+body.dark-theme #myskills, 
+body.dark-theme #projects {
+    background-color: #121212;
+    color: #ffffff;
+}
+body.dark-theme .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #ffffff;
+}
+body.dark-theme nav {
+    background-color: #1e1e1e;
+    border-color: #ffffff;
+}
+body.dark-theme .link {
+    color: #ffffff;
+}
+body.dark-theme .about_card, 
+body.dark-theme .head_card {
+    color: #ffffff;
+}
