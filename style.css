@@ -323,14 +323,6 @@ nav {
 section {
     scroll-margin-top: 100px; 
 }
-.theme-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin-left: 20px;
-    margin-right: 20px;
-    transition: transform 0.3s ease;
-}
 
 .theme-icon:hover {
     transform: scale(1.2);
@@ -371,5 +363,21 @@ body.dark-theme .contact_form textarea {
 body.dark-theme .contact_form input::placeholder,
 body.dark-theme .contact_form textarea::placeholder {
     color: #bbbbbb;
+}
+.theme-btn { 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+.theme-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
 }
 
