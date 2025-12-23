@@ -380,4 +380,15 @@ body.dark-theme .contact_form textarea::placeholder {
     margin-right: 20px;
     transition: transform 0.3s ease;
 }
+#theme-btn {
+    width: 30px !important;
+    height: 30px !important; 
+    cursor: pointer;
+    margin: 0 20px;
+    transition: transform 0.3s ease;
+    display: block;
+}
 
+#theme-btn:hover {
+    transform: scale(1.2);
+}
